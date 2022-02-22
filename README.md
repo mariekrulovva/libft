@@ -32,15 +32,15 @@ However, all functions must be protected from entering invalid data, memory leak
 | ft_calloc  |   |   |
 | ft_strdup  |  |   |
 ## The results of the tests "Libftest"
-![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png)
-![](https://github.com/mariekrulovva/libft/blob/master/img/1.png)  
-![](https://github.com/mariekrulovva/libft/blob/master/img/2.png) 
+![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png) 
+![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/2.png) 
 Link to the tests: [Click](https://github.com/jtoty/Libftest)
+
 ## The results of the tests "libft-unit-test"
-![](https://github.com/mariekrulovva/libft/blob/master/img/3.png)  
-![](https://github.com/mariekrulovva/libft/blob/master/img/4.png)  
-  
+![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/3.png)  
+![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/4.png)    
 Link to the tests: [Click](https://github.com/alelievr/libft-unit-test)
+
 ## Other
 Basic commands for compilation:
 ```
@@ -50,4 +50,4 @@ make clean - clearing *.o files
 make fclean - clearing *. o files and libraries  
 ```
   
-**Author:** *[Maria Krulova](https://github.com/markveligod)*# :white_check_mark: Libft (project 2021) 
+**Author:** *[Maria Krulova](https://github.com/mariekrulovva)*# :white_check_mark: Libft (project 2021) 

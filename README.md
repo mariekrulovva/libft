@@ -32,6 +32,7 @@ However, all functions must be protected from entering invalid data, memory leak
 | ft_calloc  |   |   |
 | ft_strdup  |  |   |
 ## The results of the tests "Libftest"
+![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png)
 ![](https://github.com/mariekrulovva/libft/blob/master/img/1.png)  
 ![](https://github.com/mariekrulovva/libft/blob/master/img/2.png) 
 Link to the tests: [Click](https://github.com/jtoty/Libftest)

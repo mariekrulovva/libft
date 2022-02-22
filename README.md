@@ -1,5 +1,5 @@
 # libft
-# :white_check_mark: Libft (project 2020) 
+# :white_check_mark: Libft (project 2021) 
 ## Task 
 The main task is to write your own library of functions for further use in projects in C.  
 The Functions must be implemented in the same way as the original functions from the standard library.  
@@ -49,7 +49,7 @@ make clean - clearing *.o files
 make fclean - clearing *. o files and libraries  
 ```
   
-**Author:** *[Mark Veligod](https://github.com/markveligod)*# :white_check_mark: Libft (project 2020) 
+**Author:** *[Maria Krulova](https://github.com/markveligod)*# :white_check_mark: Libft (project 2021) 
 ## Task 
 The main task is to write your own library of functions for further use in projects in C.  
 The Functions must be implemented in the same way as the original functions from the standard library.  
@@ -99,4 +99,4 @@ make clean - clearing *.o files
 make fclean - clearing *. o files and libraries  
 ```
   
-**Author:** *[Mark Veligod](https://github.com/markveligod)*
+**Author:** *[Maria Krulova](https://github.com/markveligod)*

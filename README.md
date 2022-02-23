@@ -102,14 +102,24 @@ In this second part, you must develop a set of functions that are either not in 
 Function name | ft_substr
 ----- | -----
 Prototype | char *ft_substr(char const *s, unsigned int start, size_t len);
-Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h
-Parameters | fd: The file descriptor to read from
-Return value | Read line: correct behavior. NULL: there is nothing else to read, or an error occurred
-External functs. | read, malloc, free
-Description  | Write a function that returns a line read from a file descriptor
-
+Turn in files | -
+Parameters | fs: The string from which to create the substring. start: The start index of the substring in the string ’s’. len: The maximum length of the substring.
+Return value | The substring. NULL if the allocation fails.
+External functs. | malloc
+Description  | Allocates (with malloc(3)) and returns a substring from the string ’s’. The substring begins at index ’start’ and is of maximum size ’len’.
 ```
 char *ft_substr(char const *s, unsigned int start, size_t len); 
+```
+Function name | ft_strjoin
+----- | -----
+Prototype | char *ft_strjoin(char const *s1, char const *s2);
+Turn in files | -
+Parameters | s1: The prefix string. s2: The suffix string.
+Return value | The new string. NULL if the allocation fails.
+External functs. | malloc
+Description  | Allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
+```
+char *ft_strjoin(char const *s1, char const *s2);
 ```
 ____
 ### The results of the tests "Libftest"

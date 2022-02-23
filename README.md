@@ -26,7 +26,7 @@ ____
 * To turn in bonuses to your project, you must include a rule bonus to your Makefile, which will add all the various headers, librairies or functions that are forbidden on the main part of the project. Bonuses must be in a different file _bonus.{c/h} if the subject does not specify anything else. Mandatory and bonus part evaluation is done separately.
 * If your project allows you to use your libft, you must copy its sources and its associated Makefile in a libft folder with its associated Makefile. Your project’s Makefile must compile the library by using its Makefile, then compile the project.
 * We encourage you to create test programs for your project even though this work **won’t have to be submitted and won’t be graded**. It will give you a chance to easily test your work and your peers’ work. You will find those tests especially useful during your defence. Indeed, during defence, you are free to use your tests and/or the tests of the peer you are evaluating.
-* Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done after your peer-evaluations. If an error happens in any section of your work during Deepthought’s grading, the evaluation will stop. 
+* Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done after your peer-evaluations. If an error happens in any section of your work during Deepthought’s grading, the evaluation will stop.
 ____
 ### Mandatory Part
 
@@ -38,6 +38,15 @@ External functs. | Detailed below
 Libft autorized | n/a
 Description | Write your own library: a collection of functions that will be a useful tool for your cursus.
 
+#### Technical considerations
+
+* Declaring global variables is forbidden.
+* If you need helper functions to split a more complex function, define them as static functions. This way, their scope will be limited to the appropriate file.
+* Place all your files at the root of your repository.
+* Turning in unused files is forbidden.
+* Every .c files must compile with the flags -Wall -Wextra -Werror.
+* You must use the command ar to create your library. Using the libtool command is forbidden.
+* Your libft.a has to be created at the root of your repository.
 ____
 ### List functions  
 | Part 1  | Part 2 | Bonus |
@@ -51,21 +60,21 @@ ____
 | ft_memcmp  | ft_putchar_fd  | ft_lstclear |
 | ft_strlen  | ft_putstr_fd  | ft_lstiter  |
 | ft_strlcpy  |ft_putendl_fd  | ft_lstmap  |
-| ft_strlcat  | ft_putnbr_fd  |  |
+| ft_strlcat  | ft_putnbr_fd  |   |
 | ft_strchr  |   |   |
 | ft_strrchr  |   |   |
 | ft_strnstr  |   |   |
 | ft_strncmp  |   |   |
 | ft_atoi  |   |   |
 | ft_isalpha  |   |   |
-| ft_isdigit  |  |   |
+| ft_isdigit  |   |   |
 | ft_isalnum  |   |   |
-| ft_isascii  | |   |
+| ft_isascii  |   |   |
 | ft_isprint |   |   |
 | ft_toupper  |   |   |
-| ft_tolower  |  |   |
+| ft_tolower  |   |   |
 | ft_calloc  |   |   |
-| ft_strdup  |  |   |
+| ft_strdup  |   |   |
 ### The results of the tests "Libftest"
 ![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png) 
 ![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/2.png) 

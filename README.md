@@ -60,7 +60,6 @@ will begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen.
 You must write your own function implementing the following original ones. They do not require any external functions:
 
 isalpha | toupper | bzero
------------ | ----------- | -----------
 isdigit | tolower | memcpy
 isalnum | strchr | memmove
 isascii | strrchr | strlcpy

@@ -11,7 +11,7 @@ ____
    * [Common Instructions](#common-instructions)
    * [Mandatory Part](#mandatory-part)
    * [List functions](#list-functions)
-   * [Part 1 - Libc functions](#part-1)
+   * [Part 1 - Libc functions](#part-1-libc-functions)
    * [Part 2 - Additional functions](#part-2-additional-functions)
    * [Bonus Part](#bonus-part)
    * [Other](#other)

@@ -28,7 +28,17 @@ ____
 * We encourage you to create test programs for your project even though this work **won’t have to be submitted and won’t be graded**. It will give you a chance to easily test your work and your peers’ work. You will find those tests especially useful during your defence. Indeed, during defence, you are free to use your tests and/or the tests of the peer you are evaluating.
 * Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done after your peer-evaluations. If an error happens in any section of your work during Deepthought’s grading, the evaluation will stop. 
 ____
+### Mandatory Part
 
+Program name | libft.a
+----- | -------|
+Turn in files | Makefile, libft.h, ft_*.c
+Makefile | NAME, all clean, fclean, re
+External functs. | Detailed below
+Libft autorized | n/a
+Description | Write your own library: a collection of functions that will be a useful tool for your cursus.
+
+____
 ### List functions  
 | Part 1  | Part 2 | Bonus |
 | ------------- | ------------- | ------------- |

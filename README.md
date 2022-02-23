@@ -108,7 +108,9 @@ Return value | Read line: correct behavior. NULL: there is nothing else to read,
 External functs. | read, malloc, free
 Description  | Write a function that returns a line read from a file descriptor
 
-``` char *ft_substr(char const *s, unsigned int start, size_t len); ```
+```
+char *ft_substr(char const *s, unsigned int start, size_t len); 
+```
 ____
 ### The results of the tests "Libftest"
 ![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png) 

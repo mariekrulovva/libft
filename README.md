@@ -56,51 +56,60 @@ with the way they are defined in their man. The only difference will be their na
 will begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen.
 
 💡 Some of the functions’ prototypes you have to redo use the ’restrict’ qualifier. This keyword is part of the c99 standard. It is therefore forbidden to include it in your own prototypes and to compile your code with the -std=c99 flag.
-
-You must write your own function implementing the following original ones. They do not require any external functions:
-
------------ | ----------- | -----------
-isalpha | toupper | bzero
-isdigit | tolower | memcpy
-isalnum | strchr | memmove
-isascii | strrchr | strlcpy
-isprint | strncmp | strlcat
-strlen | memchr | strnstr
-memset | memcmp | atoi
-
-In order to implement the two following functions, you will use malloc():
-
-calloc |
-------- |
-strdup |
 ____
 ### List functions  
+
 | Part 1  | Part 2 | Bonus |
 | ------------- | ------------- | ------------- |
-| ft_memset  | ft_substr  | ft_lstnew  |
-| ft_bzero  | ft_strjoin  | ft_lstadd_front  |
-| ft_memcpy  | ft_strtrim  | ft_lstsize  |
-| ft_memccpy  | ft_split  | ft_lstlast  |
-| ft_memmove  | ft_itoa  | ft_lstadd_back  |
-| ft_memchr  | ft_strmapi  | ft_lstdelone  |
-| ft_memcmp  | ft_putchar_fd  | ft_lstclear |
-| ft_strlen  | ft_putstr_fd  | ft_lstiter  |
-| ft_strlcpy  |ft_putendl_fd  | ft_lstmap  |
-| ft_strlcat  | ft_putnbr_fd  |   |
-| ft_strchr  |   |   |
-| ft_strrchr  |   |   |
-| ft_strnstr  |   |   |
-| ft_strncmp  |   |   |
-| ft_atoi  |   |   |
-| ft_isalpha  |   |   |
-| ft_isdigit  |   |   |
-| ft_isalnum  |   |   |
-| ft_isascii  |   |   |
-| ft_isprint |   |   |
-| ft_toupper  |   |   |
-| ft_tolower  |   |   |
-| ft_calloc  |   |   |
-| ft_strdup  |   |   |
+| isalpha  | ft_substr | ft_lstnew  |
+| isdigit  | ft_strjoin | ft_lstadd_front  |
+| isalnum  | ft_strtrim | ft_lstsize  |
+| isascii  | ft_split | ft_lstlast  |
+| isprint  | ft_itoa | ft_lstadd_back  |
+| strlen  | ft_strmapi | ft_lstdelone  |
+| memset  | ft_striteri | ft_lstclear |
+| bzero  | ft_putchar_fd | ft_lstiter  |
+| memcpy  | ft_putstr_fd | ft_lstmap  |
+| memmove  | ft_putendl_fd |   |
+| strlcpy  | ft_putnbr_fd |   |
+| strlcat  |   |   |
+| toupper  |   |   |
+| tolower  |   |   |
+| strchr  |   |   |
+| strrchr  |   |   |
+| strncmp  |   |   |
+| memchr  |   |   |
+| memcmp  |   |   |
+| strnstr |   |   |
+| atoi  |   |   |
+| calloc  |   |   |
+| strdup  |   |   |
+____
+
+### Part 1 - Libc functions
+To begin, you must redo a set of functions from the libc. Your functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen.
+
+💡 Some of the functions’ prototypes you have to redo use the ’restrict’ qualifier. This keyword is part of the c99 standard. It is
+therefore forbidden to include it in your own prototypes and to compile your code with the -std=c99 flag.
+____
+
+### Part 2 - Additional functions
+
+In this second part, you must develop a set of functions that are either not in the libc, or that are part of it but in a different form.
+
+💡 Some of the following functions can be useful for writing the functions of Part 1.
+
+Function name | ft_substr
+----- | -----
+Prototype | char *ft_substr(char const *s, unsigned int start, size_t len);
+Turn in files | get_next_line.c, get_next_line_utils.c, get_next_line.h
+Parameters | fd: The file descriptor to read from
+Return value | Read line: correct behavior. NULL: there is nothing else to read, or an error occurred
+External functs. | read, malloc, free
+Description  | Write a function that returns a line read from a file descriptor
+
+``` char *ft_substr(char const *s, unsigned int start, size_t len); ```
+____
 ### The results of the tests "Libftest"
 ![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/1.png) 
 ![](https://raw.githubusercontent.com/mariekrulovva/libft/master/img/2.png) 
